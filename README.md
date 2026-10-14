@@ -8,7 +8,7 @@ SQL analysis of 1,000 students' exam scores in PostgreSQL. Compares scores acros
 ## Dataset
 - File: `[data/StudentsPerformance.csv](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)` (1,000 rows)
 - Columns: gender, race/ethnicity, parental level of education, lunch, test preparation course, math / reading / writing scores.
-- Source: public Kaggle dataset "Students Performance in Exams" (add the exact link here).
+- Source: public Kaggle dataset "Students Performance in Exams".
 
 ## SQL concepts used
 `GROUP BY`, aggregates (`AVG`, `MIN`, `MAX`, `STDDEV`, `COUNT`), `CASE` for grade bands, window function `RANK() OVER`, and cross-tab comparisons.
@@ -45,7 +45,7 @@ These are averages and show association, not proof of cause.
 
 ## Project structure
 ```
-students-performance-sql/
+students-performance-sql-practice-analysis/
 ├── data/StudentsPerformance.csv
 ├── sql/
 │   ├── 01_setup.sql        # create tables and load the CSV
