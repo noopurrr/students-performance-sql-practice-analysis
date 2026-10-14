@@ -6,7 +6,7 @@ SQL analysis of 1,000 students' exam scores in PostgreSQL. Compares scores acros
 - SQL, PostgreSQL
 
 ## Dataset
-- File: `data/StudentsPerformance.csv` (1,000 rows)
+- File: `[data/StudentsPerformance.csv](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams)` (1,000 rows)
 - Columns: gender, race/ethnicity, parental level of education, lunch, test preparation course, math / reading / writing scores.
 - Source: public Kaggle dataset "Students Performance in Exams" (add the exact link here).
 
