@@ -56,8 +56,8 @@ students-performance-sql/
 
 ## How to run
 ```bash
-git clone https://github.com/noopurrr/students-performance-sql.git
-cd students-performance-sql
+git clone https://github.com/noopurrr/students-performance-sql-practice-analysis.git
+cd students-performance-sql-practice-analysis
 createdb students
 psql -d students -f sql/01_setup.sql
 psql -d students -f sql/02_analysis.sql
